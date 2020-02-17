@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ChatListView: View {
+    var header = "Chat Threads"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(0 ..< 20) { number in
+                    Text("Thread \(number)")
+                }
+                .navigationBarTitle(header)
+            }
+        }
     }
 }
 
