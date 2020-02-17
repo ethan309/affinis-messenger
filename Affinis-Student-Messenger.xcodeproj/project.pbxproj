@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF79979A23FB14170054BCCC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79979923FB14170054BCCC /* ProfileView.swift */; };
+		AF79979C23FB14280054BCCC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79979B23FB14280054BCCC /* ChatListView.swift */; };
+		AF79979E23FB160C0054BCCC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79979D23FB160C0054BCCC /* ProfileImageView.swift */; };
 		AFB3BC7E23FB0F2F006BB76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3BC7D23FB0F2F006BB76C /* AppDelegate.swift */; };
 		AFB3BC8023FB0F2F006BB76C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3BC7F23FB0F2F006BB76C /* SceneDelegate.swift */; };
 		AFB3BC8323FB0F2F006BB76C /* Affinis_Student_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB3BC8123FB0F2F006BB76C /* Affinis_Student_Messenger.xcdatamodeld */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF79979923FB14170054BCCC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AF79979B23FB14280054BCCC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		AF79979D23FB160C0054BCCC /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		AFB3BC7A23FB0F2F006BB76C /* Affinis-Student-Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Affinis-Student-Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB3BC7D23FB0F2F006BB76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB3BC7F23FB0F2F006BB76C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				AFB3BC7D23FB0F2F006BB76C /* AppDelegate.swift */,
 				AFB3BC7F23FB0F2F006BB76C /* SceneDelegate.swift */,
 				AFB3BC8423FB0F2F006BB76C /* ContentView.swift */,
+				AF79979923FB14170054BCCC /* ProfileView.swift */,
+				AF79979D23FB160C0054BCCC /* ProfileImageView.swift */,
+				AF79979B23FB14280054BCCC /* ChatListView.swift */,
 				AFB3BC8623FB0F30006BB76C /* Assets.xcassets */,
 				AFB3BC8B23FB0F30006BB76C /* LaunchScreen.storyboard */,
 				AFB3BC8E23FB0F30006BB76C /* Info.plist */,
@@ -271,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB3BC8323FB0F2F006BB76C /* Affinis_Student_Messenger.xcdatamodeld in Sources */,
+				AF79979E23FB160C0054BCCC /* ProfileImageView.swift in Sources */,
 				AFB3BC7E23FB0F2F006BB76C /* AppDelegate.swift in Sources */,
+				AF79979A23FB14170054BCCC /* ProfileView.swift in Sources */,
 				AFB3BC8523FB0F2F006BB76C /* ContentView.swift in Sources */,
+				AF79979C23FB14280054BCCC /* ChatListView.swift in Sources */,
 				AFB3BC8023FB0F2F006BB76C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

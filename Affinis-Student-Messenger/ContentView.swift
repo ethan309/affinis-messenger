@@ -9,25 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection = 0
+    @State private var tabSelection = 0
  
     var body: some View {
-        TabView(selection: $selection){
-            Text("First View")
-                .font(.title)
+        TabView(selection: $tabSelection){
+            ChatListView()
                 .tabItem {
                     VStack {
                         Image("first")
-                        Text("First")
+                        Text("Threads")
                     }
                 }
                 .tag(0)
-            Text("Second View")
-                .font(.title)
+            ProfileView()
                 .tabItem {
                     VStack {
                         Image("second")
-                        Text("Second")
+                        Text("Profile")
                     }
                 }
                 .tag(1)
