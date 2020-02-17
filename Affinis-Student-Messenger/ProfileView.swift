@@ -13,9 +13,23 @@ struct ProfileView: View {
         ScrollView {
             VStack {
                 ProfileImageView(image: Image("second"))
-                VStack {
-                    Text("Profile").font(.headline)
+                VStack(alignment: .leading) {
+                    Text("First Last").font(.headline)
+                    HStack {
+                        Text("Profile").font(.subheadline)
+                        Spacer()
+                        Button(action: { /* edit action */ })
+                        {
+                            Text("Edit")
+                        }
+                    }
                 }
+                .padding()
+                VStack {
+                    Text("Profile Information").font(.body)
+                    // Content here...
+                }
+                .padding()
             }
         }
     }
